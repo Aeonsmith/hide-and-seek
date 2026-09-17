@@ -8,3 +8,5 @@ __pycache__/
 temp*
 .pytest_cache/
 .coverage
+build/
+dist/
