@@ -1,6 +1,7 @@
 # 🎬 Hide and Seek — Video Trimmer & Audio Extractor
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Aeonsmith%2Fhide--and--seek-blue?logo=github)](https://github.com/Aeonsmith/hide-and-seek)
+[![GitHub Release](https://img.shields.io/github/v/release/Aeonsmith/hide-and-seek?color=green&logo=github)](https://github.com/Aeonsmith/hide-and-seek/releases/tag/v1.0.0)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,9 +9,25 @@
 
 ---
 
+## 📢 Release Announcement: v1.0.0 (Initial Release)
+
+We are pleased to announce the release of **Hide and Seek v1.0.0**!
+
+### 🌟 What's New
+- **Native Desktop GUI**: Standalone dark-mode desktop interface built with CustomTkinter/Tkinter.
+- **Standalone Windows Executable**: Single-file `.exe` binary package available on the [Releases Page](https://github.com/Aeonsmith/hide-and-seek/releases/tag/v1.0.0).
+- **Precision Video Trimming**: Cut segments using exact seconds or timestamps (`MM:SS` / `HH:MM:SS`).
+- **High-Quality Audio Extraction**: Extract audio tracks directly to MP3, WAV, or AAC.
+- **Full CLI & Python API Support**: Automate video clipping in your own workflows and scripts.
+- **100% Automated Test Suite**: Built-in tests using programmatic synthetic media generation.
+
+📥 **Download the Windows Executable**: [HideAndSeek.exe (v1.0.0)](https://github.com/Aeonsmith/hide-and-seek/releases/download/v1.0.0/HideAndSeek.exe)
+
+---
+
 ## 📌 Features
 
-- **Native Desktop GUI (No Browser Required)**: Modern dark-themed GUI built with CustomTkinter/Tkinter featuring live file analysis, duration inspection, and background asynchronous processing.
+- **Native Desktop GUI (No Browser Required)**: Modern dark-themed GUI featuring live file analysis, duration inspection, and background asynchronous processing.
 - **Single-File Windows Executable**: Pre-packaged `.exe` binary ready to launch from your Desktop or Start Menu.
 - **Precision Video Trimming**: Cut video segments using seconds (`45.5`) or timestamp strings (`MM:SS` / `HH:MM:SS`).
 - **High-Quality Audio Extraction**: Extract audio tracks directly to MP3, WAV, or AAC.
@@ -34,6 +51,7 @@ hide-and-seek/
 ├── icon.ico               # Application icon (16x16 to 256x256)
 ├── HideAndSeek.spec       # PyInstaller build specification
 ├── README.md              # Project documentation
+├── CHANGELOG.md           # Release history & version notes
 └── dist/
     └── HideAndSeek.exe    # Standalone compiled Windows executable
 ```
